@@ -3,6 +3,12 @@
 
 
 [![Repo size](https://img.shields.io/github/repo-size/hanedotoaranea/windows-11-answer-file?style=for-the-badge)](https://github.com/hanedotoaranea/windows-11-answer-file)
+<a href="https://github.com/hanedotoaranea/windows-11-answer-file/releases">
+  <img src="https://shields.io" alt="All releases">
+</a>
+<a href="https://github.com/hanedotoaranea/windows-11-answer-file">
+  <img src="https://shields.io" alt="Repo size">
+</a>
 
 Applicable to Windows 10.
 Use this link to check the contents of the file it changes autounnated.xml
