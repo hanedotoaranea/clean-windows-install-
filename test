@@ -8,8 +8,8 @@ reg add "HKLM\SOFTWARE\Policies\Microsoft\MicrosoftEdge\TabPreloader" /v Prevent
 reg add "HKLM\SOFTWARE\Policies\Microsoft\MicrosoftEdge\TabPreloader" /v AllowTabPreloading /t REG_DWORD /d 0 /f
 # Отключение Edge конец
 
-
-
-
+# Screen tint
+Set-ItemProperty -Path "HKCU:\Software\Microsoft\ScreenTint" -Name "TintType" -Value 2 -Type DWord -Force; Set-ItemProperty -Path "HKCU:\Software\Microsoft\ScreenTint" -Name "Active" -Value 1 -Type DWord -Force
+# Screen tint конец
 
 
