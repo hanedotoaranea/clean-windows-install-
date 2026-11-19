@@ -1,11 +1,12 @@
 sc.exe config ndu start= auto
 Set-Service -Name ndu -StartupType Automatic
+# Отключение Edge
 reg add "HKLM\SOFTWARE\Policies\Microsoft\MicrosoftEdge\Main" /v SyncFavoritesBetweenIEAndMicrosoftEdge /t REG_DWORD /d 1 /f
 reg add "HKLM\SOFTWARE\Policies\Microsoft\MicrosoftEdge\Main" /v PreventLiveTileDataCollection /t REG_DWORD /d 1 /f
 reg add "HKLM\SOFTWARE\Policies\Microsoft\MicrosoftEdge\Main" /v AllowPrelaunch /t REG_DWORD /d 0 /f
 reg add "HKLM\SOFTWARE\Policies\Microsoft\MicrosoftEdge\TabPreloader" /v PreventTabPreloading /t REG_DWORD /d 1 /f
 reg add "HKLM\SOFTWARE\Policies\Microsoft\MicrosoftEdge\TabPreloader" /v AllowTabPreloading /t REG_DWORD /d 0 /f
-
+# Отключение Edge конец
 
 
 
